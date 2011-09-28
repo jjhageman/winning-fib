@@ -27,7 +27,8 @@ Gem::Specification.new do |s|
     "VERSION",
     "lib/winning-fib.rb",
     "spec/spec_helper.rb",
-    "spec/winning-fib_spec.rb"
+    "spec/winning-fib_spec.rb",
+    "winning-fib.gemspec"
   ]
   s.homepage = "http://github.com/jjhageman/winning-fib"
   s.licenses = ["MIT"]
