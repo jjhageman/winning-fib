@@ -17,8 +17,12 @@ Jeweler::Tasks.new do |gem|
   gem.name = "winning-fib"
   gem.homepage = "http://github.com/jjhageman/winning-fib"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Finds the largest integer value from the Fibonacci Sequence smaller than the given integer}
+  gem.description = %Q{Finds the largest integer value from the Fibonacci Sequence smaller than the given integer.
+  Example:
+  
+  5. 156.closest_fibonacci => 144
+99.closest_fibonacci  => 89}
   gem.email = "jjhageman@gmail.com"
   gem.authors = ["jjhageman"]
   # dependencies defined in Gemfile
